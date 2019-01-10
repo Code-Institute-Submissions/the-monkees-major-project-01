@@ -1,4 +1,6 @@
-/*---------- Fonts ----- */
+/*---------- Fonts / CDN ----- */
+
+
 
 @import url('https://fonts.googleapis.com/css?family=Aleo:300,300i,400,400i,700,700i');
 
@@ -10,6 +12,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: "Aleo", sans-serif !important;
 }
 
 /*----------/Html & Body -----*/
@@ -49,7 +52,7 @@ html, body {
 
 .backstage-div {
     position: fixed;
-    bottom: 30%;
+    bottom: 20%;
     text-align: center;
     color: white;
     width: 100%;
@@ -59,20 +62,25 @@ html, body {
     z-index: 2;
 }
 
-button {
-    background-color: transparent;
-    border-radius: 0;
-    border: solid 2px white;
-    width: 300px;
-    height: 50px;
+.backstage-btn {
+    background-color: transparent !important;
+    color: white !important;
+    height: 75px;
+    width: 300px !important;
 }
 
-a {
-    text-decoration: none;
+.backstage-btn:hover {
+    background-color: rgba(255,255, 255, 0.1) !important;
+}
+
+button a {
+    text-decoration: none !important;
     color: white;
     font-size: 30px;
-    font-family: 'Aleo', serif;
-    font-weight: 300;
+}
+
+button a:hover {
+    color: white;
 }
 
 /*---------- Media Queries ( Tablet + ) -----*/
@@ -91,14 +99,6 @@ a {
     z-index: 2;
 }
 
-button {
-    background-color: transparent;
-    border-radius: 0;
-    border: solid 2px white;
-    width: 200px;
-    height: 50px;
-}
-
 a {
     text-decoration: none;
     color: white;
@@ -111,3 +111,28 @@ a {
 /*----------/Media Queries ( Tablet + ) -----*/
 /*----------/Landing Page -----*/
 
+/*---------- Backstage Page -----*/
+
+div.jumbotron {
+    padding-left: 20px;
+    text-align: center;
+    height: 150px;
+    padding-top: 15px;
+}
+
+iframe:before {
+    border: 3px solid white;
+}
+
+
+/*----------/Backstage Page -----*/
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    color: black;
+    background-color: #eeeeee;
+}
