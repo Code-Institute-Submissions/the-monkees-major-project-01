@@ -111,7 +111,12 @@ a {
 /*----------/Media Queries ( Tablet + ) -----*/
 /*----------/Landing Page -----*/
 
+
 /*---------- Backstage Page -----*/
+
+.nav-item {
+    text-align: center;
+}
 
 div.jumbotron {
     padding-left: 20px;
@@ -136,3 +141,94 @@ footer{
     color: black;
     background-color: #eeeeee;
 }
+
+/*---------- mtb.html -----*/
+
+
+.dj_col:hover {
+    opacity: 0.4;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+}
+
+.container:hover .image {
+  opacity: 0.2;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.hover_text {
+  background-color: #f3f3f3;
+  color: rgba(0,0,0,.5);
+  font-size: 20px;
+  padding: 10px 20px;
+}
+.hover_text:hover {
+  color: rgb(0,0,0);
+}
+
+/*----------/mtb.html -----*/
+
+/*---------- special class names -----*/
+
+.fff {
+    color: #ffffff;
+}
+
+.aleoff {
+    font-family: 'Aleo', sans-serif;
+}
+
+.tacenter {
+    text-align: center;
+}
+
+.p5 {
+    padding: 5px;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.p15 {
+    padding: 15px;
+}
+
+.maxheight {
+    max-height: 183px;
+}
+
+.width100 {
+    width: 80%;
+}
+
+iframe video{
+    height: 720px !important;
+}
+/*----------/special class names -----*/
