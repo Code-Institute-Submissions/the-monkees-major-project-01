@@ -1,10 +1,10 @@
 /*---------- Fonts / CDN ----- */
 
-
-
 @import url('https://fonts.googleapis.com/css?family=Aleo:300,300i,400,400i,700,700i');
 
 /*----------/Fonts -----*/
+
+/*-----*/
 
 /*---------- Html & Body ----- */
 
@@ -16,6 +16,8 @@ html, body {
 }
 
 /*----------/Html & Body -----*/
+
+/*-----*/
 
 /*---------- Landing Page -----*/
 
@@ -40,7 +42,7 @@ html, body {
 
 #the-monkees {
     position: fixed;
-    bottom: 40%;
+    bottom: 40% !important;
     text-align: center;
     color: white;
     width: 100%;
@@ -73,13 +75,13 @@ html, body {
     background-color: rgba(255,255, 255, 0.1) !important;
 }
 
-button a {
-    text-decoration: none !important;
+#come_bkstg {
+    text-decoration: none ;
     color: white;
     font-size: 30px;
 }
 
-button a:hover {
+#come_bkstg:hover {
     color: white;
 }
 
@@ -106,11 +108,14 @@ a {
     font-family: 'Aleo', serif;
     font-weight: 300;
 }
+
 }
 
 /*----------/Media Queries ( Tablet + ) -----*/
+
 /*----------/Landing Page -----*/
 
+/*-----*/
 
 /*---------- Backstage Page -----*/
 
@@ -118,20 +123,16 @@ a {
     text-align: center;
 }
 
-div.jumbotron {
+.jumbotron {
     padding-left: 20px;
     text-align: center;
     height: 150px;
-    padding-top: 15px;
+    padding: 5px !important;
 }
 
 iframe:before {
     border: 3px solid white;
 }
-
-
-/*----------/Backstage Page -----*/
-
 
 footer{
     position: fixed;
@@ -142,6 +143,10 @@ footer{
     background-color: #eeeeee;
 }
 
+/*----------/Backstage Page -----*/
+
+/*-----*/
+
 /*---------- mtb.html -----*/
 
 
@@ -149,10 +154,6 @@ footer{
     opacity: 0.4;
 }
 
-.container {
-  position: relative;
-  width: 50%;
-}
 
 .image {
   opacity: 1;
@@ -192,6 +193,97 @@ footer{
   color: rgb(0,0,0);
 }
 
+.focused-image {
+    opacity: 0.2;
+}
+
+.focus_text {
+  background-color: #f3f3f3;
+  color: rgba(0,0,0,.5);
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+.focused_middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 1;
+}
+
+.mtb_h1 {
+    font-size: 28px ;
+}
+
+.mtb_page_p_gi b {
+    color: #ab8ae9;
+}
+.mtb_page_p_gi  {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.mtb_page_p_h b  {
+    color: #ab8ae9;
+}
+
+.mtb_page_p_h  {
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.mtb_page_p_ld  {
+    font-size: 14px;
+
+}
+
+.social_links a {
+    text-decoration: none;
+    color: white ;
+    font-size: 16px;
+    font-family: 'Aleo', serif;
+    font-weight: 300;
+}
+
+.social_links a:hover {
+    text-decoration: none;
+    color: #eeeeee;
+    font-size: 16px;
+    font-family: 'Aleo', serif;
+    font-weight: 300;
+}
+
+.social_links_{
+    color: black;
+}
+
+.social_links_:hover{
+    color: #272727;
+}
+
+@media (max-width: 790px)  {
+    
+.mtb_h1 {
+    font-size: 18px ;
+}
+    
+.mtb_page_p_gi,
+.mtb_page_p_h,
+.mtb_page_p_ld,
+.social_links,
+.social_links a
+{
+    font-size: 8px !important;
+}
+
+}
+
 /*----------/mtb.html -----*/
 
 /*---------- special class names -----*/
@@ -227,8 +319,5 @@ footer{
 .width100 {
     width: 80%;
 }
-
-iframe video{
-    height: 720px !important;
-}
+ 
 /*----------/special class names -----*/
