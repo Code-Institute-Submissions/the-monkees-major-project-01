@@ -6,6 +6,8 @@
  
  ## UX
  
- My method for the UX Design was to use the software Sketch (https://www.sketchapp.com/).
+ My method for the UX Design was to use the software Sketch (https://www.sketchapp.com/) to help me plan better.
+ 
+ 
  
  ------
