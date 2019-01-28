@@ -53,7 +53,9 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-Deployment
+-----
+
+## Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
@@ -63,10 +65,12 @@ Different configuration files?
 Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
-Credits
-Content
+-----
+
+## Credits
+### Content
 The text for section Y was copied from the Wikipedia article Z
-Media
+### Media
 The photos used in this site were obtained from ...
-Acknowledgements
+### Acknowledgements
 I received inspiration for this project from X
