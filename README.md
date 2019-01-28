@@ -16,9 +16,15 @@ This website displays content through visual and audible stimuluses such as: pic
 ## Features
 ### Existing Features
 
-1 - Landing Page - I used the concept of having a full-width image of the band with a button to enter the website stating "Come Backstage!" to add a more user-friendly experience.
+1. Landing Page - I used the concept of having a full-width image of the band with a button to enter the website stating "Come Backstage!" to add a more user-friendly experience.
 
+2. Backstage - I thought it was a good idea to have a "Backstage" of the website as when bands go on stage there is a chance for some  fans to go backstage and meet the band. This has an exclusive feeling about it and creates a more real-life experience. It also shows a video of them performing a song and is the only piece of content as I wanted the backstage just to be a place where viewers can go where ever they want from there.
 
+3. Meet The Band - This page is where fans or potential fans can know more about each band member. I used pictures of each band member and created a hover effect so when they hovered of the face it shows their name and when clicked it directs them to another page with more indepth infomation about them. This was to make it look more visually satisfying rather than having text about each one on the same page. On those pages will be general infomation about them (Birthday, Birth-place and insturments they play), Likes/Dislikes, History and also social media links.
+
+4. Archives - A place where viewers can listen to the most popular songs, look at the whole Discography of the Monkee's and see when new songs are released.
+
+5. Band Availability - 
 ### Features Left to Implement
 Another feature idea
 
