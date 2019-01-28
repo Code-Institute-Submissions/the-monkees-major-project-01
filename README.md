@@ -81,10 +81,10 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 ### Content
 History of each band member can be found on their wiki page:
-https://en.wikipedia.org/wiki/Micky_Dolenz - Mickly Dolenz
-https://en.wikipedia.org/wiki/Michael_Nesmith - Michael Nesmith
-https://en.wikipedia.org/wiki/Davy_Jones_(musician) - Davy Jones
-https://en.wikipedia.org/wiki/Peter_Tork - Peter Tork
+- https://en.wikipedia.org/wiki/Micky_Dolenz - Mickly Dolenz
+- https://en.wikipedia.org/wiki/Michael_Nesmith - Michael Nesmith
+- https://en.wikipedia.org/wiki/Davy_Jones_(musician) - Davy Jones
+- https://en.wikipedia.org/wiki/Peter_Tork - Peter Tork
 
 ### Media
 The photos used in this site were obtained from the project assets given to me.
