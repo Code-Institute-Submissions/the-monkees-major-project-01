@@ -1,6 +1,8 @@
 # The Monkees' Major Project
 
- In this project I was assigned to make a website for the Pop-Band "The Monkees'". 
+In this project I was assigned to make a website for the Pop-Band "The Monkees'". I chose to follow-up with the suggested band and not decide on a project myself as I wanted to experience a real-life work situation where clients would say what they wanted to be displayed on their webiste.
+
+This website displays content through visual and audible stimuluses such as: picture and videos and also audio files aswell. You can find infomation about each band member, the band availability and also tour dates in the UK. Additionally, there is an "Archives" page where viewers can look at their Discography and also listen to selected songs.
  
  -----
  
