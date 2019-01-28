@@ -8,21 +8,16 @@ This website displays content through visual and audible stimuluses such as: pic
  
  ## UX
  
- My method for the UX Design was to use the software Sketch (https://www.sketchapp.com/) to help me plan better.
+ My method for the UX Design was to use the software Sketch (https://www.sketchapp.com/) to help me plan and design better. 
  
  
  
 -----
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
 ### Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+1 - Landing Page - I used the concept of having a full-width image of the band with a button to enter the website stating "Come Backstage!" to add a more user-friendly experience.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 Another feature idea
