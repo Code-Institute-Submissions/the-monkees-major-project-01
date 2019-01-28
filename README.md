@@ -35,14 +35,15 @@ Another feature idea
 
 
 ### HTML
-The provide the structure of the webiste.
+To provide the structure of the webiste.
 
 ### CSS
 To make the website look better visually.
 
-### Bootstrap(https://getbootstrap.com/)
-
-sdasdasdg 
+### Bootstrap
+(https://getbootstrap.com/)
+ To use their responsive grid system and also their sass variables where certain variables have an established design to it already.
+ 
 -----
 
 ## Testing
