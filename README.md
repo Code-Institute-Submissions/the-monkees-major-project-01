@@ -24,7 +24,8 @@ This website displays content through visual and audible stimuluses such as: pic
 
 4. Archives - A place where viewers can listen to the most popular songs, look at the whole Discography of the Monkee's and see when new songs are released.
 
-5. Band Availability - 
+5. Band Availability - This is where fans can see where and when The Monkees' will be performing with a button to be linked to a place where they can purchase tickets. Futhermore, It has a Band Availability where people can book out The Monkees' for weddings etc.
+
 ### Features Left to Implement
 Another feature idea
 
