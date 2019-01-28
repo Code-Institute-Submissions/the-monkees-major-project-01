@@ -32,11 +32,17 @@ Another feature idea
 -----
 
 ## Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-### JQuery
-The project uses JQuery to simplify DOM manipulation.
 
+### HTML
+The provide the structure of the webiste.
+
+### CSS
+To make the website look better visually.
+
+### Bootstrap(https://getbootstrap.com/)
+
+sdasdasdg 
 -----
 
 ## Testing
