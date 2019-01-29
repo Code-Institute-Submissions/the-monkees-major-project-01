@@ -14,13 +14,13 @@ This website displays content through visual and audible stimuluses such as: pic
  
 This website is intended to be used by fans and potential fans. Therefore, there should be an abundance of media from the monkess that that veiwer can see or hear. Additionally, as it is a pop-band group the website needs to be basic and less tech savy as young people may want to access the website and therefore, the navigation should be easy to follow.
 
-As I think it will be for younger audience (as the point is the monkees are at there prime) bootstrap would be a good libary to use as it is good mobile-first-approach. Moreover, as I am creating a B2C website there should be little text possivle and more media should be used.
+As I think it will be for younger audience (as the point is the monkees are at there prime) bootstrap would be a good libary to use as it is good mobile-first-approach. Moreover, as I am creating a B2C website there should be little text possible and more media should be used.
 
 ### Scope Plane
 
 I wanted to included a page where there was a photo of the band, or individual photos, and when the user clicked a band memeber infomation about that band member would show. I thought this would create a more emotinal attachment because it shows their history and likes/dislikes.
 
-Additionally, there would be an archive page showing all the band's discography so fnas and potential fans can look up all their music with also a few songs free on their website so potential fans can decide whether or not they enjot the music.
+Additionally, there would be an archive page showing all the band's discography so fans and potential fans can look up all their music with also a few songs free on their website so potential fans can decide whether or not they enjot the music.
 
 Futhermore, I wanted to make a page to show the availablity of the group so people can book them out. Also, the dates or where and when they are peforming with a "Book Now" button will be made.
  
