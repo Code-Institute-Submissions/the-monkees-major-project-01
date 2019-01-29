@@ -10,6 +10,14 @@ This website displays content through visual and audible stimuluses such as: pic
  
  My method for the UX Design was to use the software Sketch (https://www.sketchapp.com/) to help me plan and design better. 
  
+ ### Strategy Plane
+ 
+This website is intended to be used by fans and potential fans. Therefore, there should be an abundance of media from the monkess that that veiwer can see or hear. Additionally, as it is a pop-band group the website needs to be basic and less tech savy as young people may want to access the website and therefore, the navigation should be easy to follow.
+
+As I think it will be for younger audience (as the point is the monkees are at there prime) bootstrap would be a good libary to use as it is good mobile-first-approach. Moreover, as I am creating a B2C website there should be little text possivle and more media should be used.
+
+### Scope Plane
+ 
  
  
 -----
