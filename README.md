@@ -27,7 +27,8 @@ This website displays content through visual and audible stimuluses such as: pic
 5. Band Availability - This is where fans can see where and when The Monkees' will be performing with a button to be linked to a place where they can purchase tickets. Futhermore, It has a Band Availability where people can book out The Monkees' for weddings etc.
 
 ### Features Left to Implement
-Another feature idea
+
+I was going to make a live social media feed of each band member so when they post on either facebook, twitter or instagram it posts automatically on the website.
 
 -----
 
