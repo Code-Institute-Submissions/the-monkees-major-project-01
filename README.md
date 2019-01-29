@@ -87,5 +87,5 @@ History of each band member can be found on their wiki page:
 - https://en.wikipedia.org/wiki/Peter_Tork - Peter Tork
 
 ### Media
-The photos used in this site were obtained from the project assets given to me.
+All peices of conent (photos, videos, audio) that were used in this site were obtained from the project assets given to me.
 
