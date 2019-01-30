@@ -11,8 +11,18 @@
 html, body {
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: 80%;
     font-family: "Aleo", sans-serif !important;
+}
+
+.main {
+    margin-top: 100px;
+}
+
+@media (max-width: 1024px) {
+    .main {
+        margin-top: 200px;
+    }
 }
 
 /*----------/Html & Body -----*/
@@ -87,7 +97,11 @@ html, body {
 
 /*---------- Media Queries ( Tablet + ) -----*/
 
-@media (min-width: 790px)  {
+@media (max-width: 1024px)  {
+
+.navbar-brand img {
+    display: none;
+}
     
 #the-monkees {
     position: fixed;
@@ -119,6 +133,13 @@ a {
 
 /*---------- Backstage Page -----*/
 
+nav.navbar, .navbar-expand-lg, .navbar-light{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
 .nav-item {
     text-align: center;
 }
@@ -143,6 +164,26 @@ footer{
     background-color: #eeeeee;
 }
 
+@media (max-width: 1024px) {
+    
+.navbar-toggler {
+    height: 150px;
+    width: 150px;
+}
+.fa-angle-double-down {
+    font-size: 60px;
+}
+.nav-item {
+    font-size: 75px;
+}
+
+footer {
+    position: relative;
+    height: 80px;
+    font-size: 18px;
+}
+
+}
 /*----------/Backstage Page -----*/
 
 /*-----*/
@@ -267,11 +308,12 @@ footer{
     color: #272727;
 }
 
-@media (max-width: 790px)  {
+@media (max-width: 1024px)  {
     
 .mtb_h1 {
-    font-size: 18px ;
+    font-size: 45px ;
 }
+
     
 .mtb_page_p_gi,
 .mtb_page_p_h,
@@ -279,16 +321,44 @@ footer{
 .social_links,
 .social_links a
 {
-    font-size: 8px !important;
+    font-size: 28px;
+    line-height: 30px;
 }
 
 }
 
 /*----------/mtb.html -----*/
 
-/*---------- Archives -----*/
 
-/*----------/Archives -----*/
+/*---------- archives.html -----*/
+
+/*----------/archives.html -----*/
+
+
+/*---------- availability.html -----*/
+
+@media (max-width: 1024px)  {
+
+.currentdates h1 {
+    font-size: 100px;
+}
+
+.currentdates p {
+    font-size: 25px;
+}
+
+.adates h1 {
+    font-size: 100px;
+}
+
+.adates p {
+    font-size: 25px;
+}
+
+}
+
+/*----------/availability.html -----*/
+
 
 /*---------- special class names -----*/
 
