@@ -61,22 +61,19 @@ To make the website look better visually.
 -----
 
 ## Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+When testing my website I wrote down all the links within the website and checked if they work correctly.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Index.html -> line 12 = "Come Backstage" directs the user to backstage.html in the same tab.
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+backstage.html / mtb.html / dj_page.html
+md_page.html / mn_page.html / pt_page.html
+archives.html / availability.html -> line 11 = Image of Monkees which directs the user to backstage.html / line 12 = button which expands the nav bar and is only displayed when the Navigation bar becomes collapsed / line 17 - 19 = 3 anchor tags that take the user to the corresponding page in the same tab.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+mtb.html -> line 33 = anchor tage that directs users to dj_page.html in the same tab / 
+            line 39 = anchor tage that directs users to pt_page.html in the same tab /
+            line 45 = anchor tage that directs users to mn_page.html in the same tab / 
+            line 51 = anchor tage that directs users to md_page.html in the same tab /
 
 -----
 
