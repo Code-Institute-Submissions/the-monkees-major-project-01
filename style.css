@@ -1,33 +1,18 @@
-/*---------- Fonts / CDN ----- */
+/*---------- Fonts  ----- */
 
 @import url('https://fonts.googleapis.com/css?family=Aleo:300,300i,400,400i,700,700i');
 
 /*----------/Fonts -----*/
-
-/*-----*/
-
 /*---------- Html & Body ----- */
 
 html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: "Aleo", sans-serif !important;
 }
 
-.main {
-    margin-top: 100px;
-}
-
-@media (max-width: 1024px) {
-    .main {
-        margin-top: 125px;
-    }
-}
 
 /*----------/Html & Body -----*/
-
-/*-----*/
 
 /*---------- Landing Page -----*/
 
@@ -52,7 +37,7 @@ html, body {
 
 #the-monkees {
     position: fixed;
-    bottom: 40% !important;
+    bottom: 40%;
     text-align: center;
     color: white;
     width: 100%;
@@ -95,26 +80,6 @@ html, body {
     color: white;
 }
 
-/*---------- Media Queries ( Tablet + ) -----*/
-
-@media (max-width: 1024px)  {
-
-.navbar-brand img {
-    display: none;
-}
-    
-#the-monkees {
-    position: fixed;
-    bottom: 30%;
-    text-align: center;
-    color: white;
-    width: 100%;
-    font-size: 125px;
-    font-family: 'Aleo', serif;
-    font-weight: 700;
-    z-index: 2;
-}
-
 a {
     text-decoration: none;
     color: white;
@@ -123,20 +88,48 @@ a {
     font-weight: 300;
 }
 
+/*---------- Media Queries -----*/
+
+@media (max-width: 1024px)  {
+
+    
+#the-monkees {
+    position: fixed;
+    bottom: 40%;
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-size: 100px;
+    font-family: 'Aleo', serif;
+    font-weight: 700;
+    z-index: 2;
 }
 
-/*----------/Media Queries ( Tablet + ) -----*/
+}
 
+/*----------/Media Queries -----*/
 /*----------/Landing Page -----*/
-
 
 /*---------- Backstage Page -----*/
 
-nav.navbar, .navbar-expand-lg, .navbar-light{
+.main {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: "Aleo", sans-serif;
+}
+
+@media (max-width: 1024px) {
+    .main {
+        padding-top: 100px;
+    }
+}
+
+nav.navbar {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 10;
+    box-shadow: 0px 5px 30px black;
 }
 
 .nav-item {
@@ -146,78 +139,71 @@ nav.navbar, .navbar-expand-lg, .navbar-light{
 .jumbotron {
     padding-left: 20px;
     text-align: center;
-    height: 150px;
-    padding: 5px !important;
+
 }
 
 iframe:before {
     border: 3px solid white;
 }
 
-footer{
+footer {
+    font-family: "Aleo", sans-serif;
     position: fixed;
     bottom: 0;
     width: 100%;
     color: black;
-    background-color: #eeeeee;
+    background-color: #fff;
 }
+
+.navbar-toggler {
+    height: 90px;
+    width: 90px;
+}
+
+.fas.fa-ellipsis-v{
+    font-size: 45px;
+}
+
+/*---------- Media Queries -----*/
 
 @media (max-width: 1024px) {
     
-.navbar-toggler {
-    height: 115px;
-    width: 115px;
-}
-.fas.fa-ellipsis-v{
-    font-size: 50px;
-}
 .nav-item {
-    font-size: 75px;
+    font-size: 40px;
 }
 
 footer {
     font-size: 20px;
 }
-
 }
 
 @media (max-width: 729px) {
-    
-.navbar-toggler {
-    height: 50px;
-    width: 50px;
-}
-.fas.fa-ellipsis-v{
-    font-size: 25px;
-}
-.nav-item {
-    font-size: 20px;
-}
 
 footer {
-    font-size: 21px;
+    position: relative;
+    font-size: 15px;
 }
-
 }
+/*----------/Media Queries -----*/
 /*----------/Backstage Page -----*/
 
-/*-----*/
-
 /*---------- mtb.html -----*/
-
 
 .dj_col:hover {
     opacity: 0.4;
 }
 
+.container { 
+    padding: 10px;
+}
 
 .image {
   opacity: 1;
   display: block;
   width: 100%;
-  height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+  padding: 0;
 }
 
 .middle {
@@ -245,6 +231,7 @@ footer {
   font-size: 20px;
   padding: 10px 20px;
 }
+
 .hover_text:hover {
   color: rgb(0,0,0);
 }
@@ -296,7 +283,6 @@ footer {
 
 .mtb_page_p_ld  {
     font-size: 14px;
-
 }
 
 .social_links a {
@@ -323,32 +309,31 @@ footer {
     color: #272727;
 }
 
+/*---------- Media Queries -----*/
+
 @media (max-width: 1024px)  {
     
 .mtb_h1 {
-    font-size: 45px ;
+    font-size: 20px ;
 }
 
-    
 .mtb_page_p_gi,
 .mtb_page_p_h,
 .mtb_page_p_ld,
 .social_links,
 .social_links a
 {
-    font-size: 28px;
-    line-height: 30px;
+    font-size: 12px;
+    line-height: 18px;
+}
 }
 
-}
-
+/*----------/Media Queries -----*/
 /*----------/mtb.html -----*/
-
 
 /*---------- archives.html -----*/
 
 /*----------/archives.html -----*/
-
 
 /*---------- availability.html -----*/
 
@@ -357,6 +342,8 @@ footer {
     font-size: 21px;
     color: white;
 }
+
+/*---------- Media Queries -----*/
 
 @media (max-width: 1024px)  {
 
@@ -377,9 +364,8 @@ footer {
 }
 
 }
-
+/*----------/Media Queries -----*/
 /*----------/availability.html -----*/
-
 
 /*---------- special class names -----*/
 
