@@ -6,11 +6,11 @@ This website displays content through visual and audible stimuluses such as: pic
  
  -----
  
- ## UX
+## UX
  
  My method for the UX Design was to use the software Sketch (https://www.sketchapp.com/) to help me plan and design better. 
  
- ### Strategy Plane
+### Strategy Plane
  
 This website is intended to be used by fans and potential fans. Therefore, there should be an abundance of media from the monkess that that veiwer can see or hear. Additionally, as it is a pop-band group the website needs to be basic and less tech savy as young people may want to access the website and therefore, the navigation should be easy to follow.
 
@@ -74,18 +74,14 @@ mtb.html -> line 33 = anchor tage that directs users to dj_page.html in the same
             line 39 = anchor tage that directs users to pt_page.html in the same tab /
             line 45 = anchor tage that directs users to mn_page.html in the same tab / 
             line 51 = anchor tage that directs users to md_page.html in the same tab /
+            
+Inside each band member's page there are their social links which directs the user to a page outside the website and onto a new tab.
 
 -----
 
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+The version control and deployment of this project is based on Git Hub. After every session I push the local code within Cloud9 into my GIT HUB repository. 
 
 -----
 
