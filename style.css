@@ -49,7 +49,7 @@ html, body {
 
 .backstage-div {
     position: fixed;
-    bottom: 20%;
+    bottom: 27.5%;
     text-align: center;
     color: white;
     width: 100%;
@@ -91,8 +91,6 @@ a {
 /*---------- Media Queries -----*/
 
 @media (max-width: 1024px)  {
-
-    
 #the-monkees {
     position: fixed;
     bottom: 40%;
@@ -104,7 +102,57 @@ a {
     font-weight: 700;
     z-index: 2;
 }
+}
 
+@media (max-width: 615px)  {
+#the-monkees {
+    position: fixed;
+    bottom: 40%;
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-size: 55px;
+    font-family: 'Aleo', serif;
+    font-weight: 700;
+    z-index: 2;
+}
+.backstage-btn {
+    background-color: transparent !important;
+    color: white !important;
+    height: 55px;
+    width: 225px !important;
+}
+.backstage-div {
+    bottom: 27.5%;
+}
+#come_bkstg {
+    font-size: 20px;
+}
+}
+@media (max-width: 415px)  {
+#the-monkees {
+    position: fixed;
+    bottom: 40%;
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-size: 45px;
+    font-family: 'Aleo', serif;
+    font-weight: 700;
+    z-index: 2;
+}
+.backstage-btn {
+    background-color: transparent !important;
+    color: white !important;
+    height: 45px;
+    width: 215px !important;
+}
+.backstage-div {
+    bottom: 27.5%;
+}
+#come_bkstg {
+    font-size: 18px;
+}
 }
 
 /*----------/Media Queries -----*/
@@ -177,7 +225,7 @@ footer {
 }
 }
 
-@media (max-width: 729px) {
+@media (max-width: 500px) {
 
 footer {
     position: relative;
@@ -328,6 +376,23 @@ footer {
 }
 }
 
+@media (max-width: 450px)  {
+    
+.mtb_h1 {
+    font-size: 16px ;
+}
+
+.mtb_page_p_gi,
+.mtb_page_p_h,
+.mtb_page_p_ld,
+.social_links,
+.social_links a
+{
+    font-size: 11px;
+    line-height: 15px;
+}
+}
+
 /*----------/Media Queries -----*/
 /*----------/mtb.html -----*/
 
@@ -336,6 +401,7 @@ footer {
 /*----------/archives.html -----*/
 
 /*---------- availability.html -----*/
+
 
 .perform_p {
     vertical-align: middle;
@@ -347,22 +413,40 @@ footer {
 
 @media (max-width: 1024px)  {
 
-.currentdates h1 {
-    font-size: 75px;
-}
-
-.currentdates p {
-    font-size: 18px;
-}
-
+.currentdates h1,
 .adates h1 {
     font-size: 75px;
 }
 
+.currentdates p,
 .adates p {
     font-size: 18px;
 }
+}
 
+@media (max-width: 729px)  {
+
+.currentdates h1,
+.adates h1 {
+    font-size: 50px;
+}
+
+.currentdates p,
+.adates p {
+    font-size: 14px;
+}
+}
+@media (max-width: 400px)  {
+
+.currentdates h1,
+.adates h1 {
+    font-size: 45px;
+}
+
+.currentdates p,
+.adates p{
+    font-size: 12px;
+}
 }
 /*----------/Media Queries -----*/
 /*----------/availability.html -----*/
