@@ -378,7 +378,9 @@ footer {
     color: #272727;
 }
 
-
+.bm_main {
+        padding-top: 150px;
+}
 
 /*---------- Media Queries -----*/
 
@@ -411,9 +413,7 @@ footer {
         padding-bottom: 150px;
     }
     
-    .bm_main {
-        
-}
+
     
 }
 @media only screen and (max-width: 450px)  {
