@@ -11,14 +11,12 @@ html, body {
     height: 100%;
 }
 
-
 /*----------/Html & Body -----*/
-
 /*---------- Landing Page -----*/
 
 .bg-img {
     background-image: url("band-assets/images/monkees.jpg");
-    height: 100% !important;
+    height: 100%;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,9 +27,9 @@ html, body {
 .bg-img:after {
   position: fixed;
   bottom: 0;
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0, rgba(0, 0, 0, 0.9) 100%);
   height: 100%;
   width: 100%;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0, rgba(0, 0, 0, 0.9) 100%);
   content: '';
 }
 
@@ -90,7 +88,8 @@ a {
 
 /*---------- Media Queries -----*/
 
-@media (max-width: 1024px)  {
+@media only screen and (max-width: 1024px)  {
+    
 #the-monkees {
     position: fixed;
     bottom: 40%;
@@ -102,9 +101,10 @@ a {
     font-weight: 700;
     z-index: 2;
 }
-}
 
-@media (max-width: 615px)  {
+}
+@media only screen and (max-width: 615px) {
+    
 #the-monkees {
     position: fixed;
     bottom: 40%;
@@ -116,20 +116,25 @@ a {
     font-weight: 700;
     z-index: 2;
 }
+
 .backstage-btn {
     background-color: transparent !important;
     color: white !important;
     height: 55px;
     width: 225px !important;
 }
+
 .backstage-div {
     bottom: 27.5%;
 }
+
 #come_bkstg {
     font-size: 20px;
 }
+
 }
-@media (max-width: 415px)  {
+@media only screen and (max-width: 415px)  {
+    
 #the-monkees {
     position: fixed;
     bottom: 40%;
@@ -141,35 +146,41 @@ a {
     font-weight: 700;
     z-index: 2;
 }
+
 .backstage-btn {
     background-color: transparent !important;
     color: white !important;
     height: 45px;
     width: 215px !important;
 }
+
 .backstage-div {
     bottom: 27.5%;
 }
+
 #come_bkstg {
     font-size: 18px;
 }
+
 }
 
 /*----------/Media Queries -----*/
-/*----------/Landing Page -----*/
 
+/*----------/Landing Page -----*/
 /*---------- Backstage Page -----*/
 
 .main {
-    padding-top: 100px;
-    padding-bottom: 100px;
     font-family: "Aleo", sans-serif;
+    height: 100%;
 }
 
-@media (max-width: 1024px) {
-    .main {
-        padding-top: 100px;
-    }
+#video {
+    margin-left: auto;
+    margin-right: auto; 
+    display: block; 
+    box-shadow: 0px 10px 30px black;
+    height: auto;
+    width: auto;
 }
 
 nav.navbar {
@@ -177,21 +188,12 @@ nav.navbar {
     top: 0;
     width: 100%;
     z-index: 10;
-    box-shadow: 0px 5px 30px black;
+    background-color: white;
+    box-shadow: 0px 0px 13px black;
 }
 
 .nav-item {
     text-align: center;
-}
-
-.jumbotron {
-    padding-left: 20px;
-    text-align: center;
-
-}
-
-iframe:before {
-    border: 3px solid white;
 }
 
 footer {
@@ -199,8 +201,8 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    color: black;
-    background-color: #fff;
+    color: white;
+    background-color: #c12828;
 }
 
 .navbar-toggler {
@@ -214,35 +216,53 @@ footer {
 
 /*---------- Media Queries -----*/
 
-@media (max-width: 1024px) {
+@media only screen and (max-width: 1199px) {
     
 .nav-item {
     font-size: 40px;
 }
 
-footer {
-    font-size: 20px;
 }
+@media only screen and (max-width: 640px) {
+    
+    #video {
+        width: 100%;
+    }
+    
 }
 
-@media (max-width: 500px) {
-
-footer {
-    position: relative;
-    font-size: 15px;
-}
-}
 /*----------/Media Queries -----*/
-/*----------/Backstage Page -----*/
 
+/*----------/Backstage Page -----*/
 /*---------- mtb.html -----*/
+
+.mtbmain {
+    padding-top: 100px;
+    height: auto;
+}
+
+.arcmain {
+    padding-top: 75px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.bndmain {
+    padding-top: 75px;
+    margin-bottom: 100px;
+    height: auto;
+}
+
+ .mtbrow {
+        padding-bottom: 75px;
+    }
 
 .dj_col:hover {
     opacity: 0.4;
 }
 
-.container { 
-    padding: 10px;
+.base { 
+    padding: 10px 0;
 }
 
 .image {
@@ -265,11 +285,11 @@ footer {
   opacity: 0;
 }
 
-.container:hover .image {
+.base:hover .image {
   opacity: 0.2;
 }
 
-.container:hover .middle {
+.base:hover .middle {
   opacity: 1;
 }
 
@@ -312,6 +332,7 @@ footer {
 .mtb_page_p_gi b {
     color: #ab8ae9;
 }
+
 .mtb_page_p_gi  {
     font-size: 14px;
     line-height: 18px;
@@ -335,7 +356,7 @@ footer {
 
 .social_links a {
     text-decoration: none;
-    color: white ;
+    color: black;
     font-size: 16px;
     font-family: 'Aleo', serif;
     font-weight: 300;
@@ -343,28 +364,29 @@ footer {
 
 .social_links a:hover {
     text-decoration: none;
-    color: #eeeeee;
+    color: grey;
     font-size: 16px;
     font-family: 'Aleo', serif;
     font-weight: 300;
 }
 
 .social_links_{
-    color: black;
+    color: white;
 }
 
 .social_links_:hover{
     color: #272727;
 }
 
+
+
 /*---------- Media Queries -----*/
 
-@media (max-width: 1024px)  {
+@media only screen and (max-width: 1024px)  {
     
 .mtb_h1 {
     font-size: 20px ;
 }
-
 .mtb_page_p_gi,
 .mtb_page_p_h,
 .mtb_page_p_ld,
@@ -372,11 +394,29 @@ footer {
 .social_links a
 {
     font-size: 12px;
-    line-height: 18px;
-}
+    line-height: 15px;
 }
 
-@media (max-width: 450px)  {
+}
+@media only screen and (max-width: 767px) {
+    
+    footer {
+        position: relative;
+    }
+
+}
+@media only screen and (max-width: 576px) {
+
+   .mtbrow {
+        padding-bottom: 150px;
+    }
+    
+    .bm_main {
+        
+}
+    
+}
+@media only screen and (max-width: 450px)  {
     
 .mtb_h1 {
     font-size: 16px ;
@@ -393,25 +433,24 @@ footer {
 }
 }
 
-/*----------/Media Queries -----*/
-/*----------/mtb.html -----*/
 
+/*----------/Media Queries -----*/
+
+/*----------/mtb.html -----*/
 /*---------- archives.html -----*/
 
 /*----------/archives.html -----*/
 
 /*---------- availability.html -----*/
 
-
 .perform_p {
-    vertical-align: middle;
     font-size: 21px;
     color: white;
 }
 
 /*---------- Media Queries -----*/
 
-@media (max-width: 1024px)  {
+@media only screen and (max-width: 1024px)  {
 
 .currentdates h1,
 .adates h1 {
@@ -423,8 +462,7 @@ footer {
     font-size: 18px;
 }
 }
-
-@media (max-width: 729px)  {
+@media only screen and (max-width: 729px)  {
 
 .currentdates h1,
 .adates h1 {
@@ -436,7 +474,7 @@ footer {
     font-size: 14px;
 }
 }
-@media (max-width: 400px)  {
+@media only screen and (max-width: 400px)  {
 
 .currentdates h1,
 .adates h1 {
@@ -448,13 +486,18 @@ footer {
     font-size: 12px;
 }
 }
-/*----------/Media Queries -----*/
-/*----------/availability.html -----*/
 
+/*----------/Media Queries -----*/
+
+/*----------/availability.html -----*/
 /*---------- special class names -----*/
 
 .fff {
     color: #ffffff;
+}
+
+.redtxt {
+    color: #c12828;
 }
 
 .aleoff {
@@ -483,6 +526,10 @@ footer {
 
 .width100 {
     width: 80%;
+}
+
+.fcolor {
+    color: rgba(0,0,0,.5)
 }
  
 /*----------/special class names -----*/
