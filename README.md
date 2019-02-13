@@ -7,21 +7,21 @@
 
 1. [Overview](#overview)
 
-2. [UX Design Procedure] (#ux)
-    - [Strategy Plane] (#strategy-plane)
-    - [Scope Plane] (#scope-plane)
+2. [UX Design Procedure](#ux)
+    - [Strategy Plane](#strategy-plane)
+    - [Scope Plane](#scope-plane)
 
-3. [Features] (#features)
-    -[Existing Features] (#existing-features)
-    -[Features Left to Implement] (#features-left-to-implement)
+3. [Features](#features)
+    -[Existing Features](#existing-features)
+    -[Features Left to Implement](#features-left-to-implement)
     
-4. [Technologies Used (#technologies-used)
+4. [Technologies Used](#technologies-used)
 
-5. [Testing] (#testing)
+5. [Testing](#testing)
 
-6. [Deployment] (#deployment)
+6. [Deployment](#deployment)
 
-7. [Credits] (#credits)
+7. [Credits](#credits)
 
 -----
 
