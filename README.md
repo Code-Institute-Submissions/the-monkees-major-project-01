@@ -12,8 +12,8 @@
     - [Scope Plane](#scope-plane)
 
 3. [Features](#features)
-    -[Existing Features](#existing-features)
-    -[Features Left to Implement](#features-left-to-implement)
+    - [Existing Features](#existing-features)
+    - [Features Left to Implement](#features-left-to-implement)
     
 4. [Technologies Used](#technologies-used)
 
