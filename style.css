@@ -169,6 +169,10 @@ a {
 /*----------/Landing Page -----*/
 /*---------- Backstage Page -----*/
 
+.bkmain {
+    padding-top: 100px;
+}
+
 .main {
     font-family: "Aleo", sans-serif;
     height: 100%;
@@ -248,7 +252,7 @@ footer {
 }
 
 .bndmain {
-    padding-top: 75px;
+    padding-top: 100px;
     margin-bottom: 100px;
     height: auto;
 }
