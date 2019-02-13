@@ -73,7 +73,7 @@ I was going to make a live social media feed of each band member so when they po
 
 -----
 
-##Technologies Used
+## Technologies Used
 
 
 ### HTML
