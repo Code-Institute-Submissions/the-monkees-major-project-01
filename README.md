@@ -1,5 +1,8 @@
 # The Monkees' Major Project
 
+## Site Address:
+
+
 In this project I was assigned to make a website for the Pop-Band "The Monkees'". I chose to follow-up with the suggested band and not decide on a project myself as I wanted to experience a real-life work situation where clients would say what they wanted to be displayed on their webiste.
 
 This website displays content through visual and audible stimuluses such as: picture and videos and also audio files aswell. You can find infomation about each band member, the band availability and also tour dates in the UK. Additionally, there is an "Archives" page where viewers can look at their Discography and also listen to selected songs.
@@ -93,5 +96,11 @@ History of each band member can be found on their wiki page:
 - https://en.wikipedia.org/wiki/Davy_Jones_(musician) - Davy Jones
 - https://en.wikipedia.org/wiki/Peter_Tork - Peter Tork
 
+The following webpages were used for debuging code and to attain pre-set css in some cases.
+
+- https://www.w3schools.com
+- https://css-tricks.com
+- https://developer.mozilla.org/en-US
+ 
 ### Media
 All peices of conent (photos, videos, audio) that were used in this site were obtained from the project assets given to me.
