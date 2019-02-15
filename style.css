@@ -246,7 +246,7 @@ footer {
 }
 
 .arcmain {
-    padding-top: 75px;
+    padding-top: 100px;
     height: auto;
     margin-bottom: 50px;
 }
@@ -384,6 +384,7 @@ footer {
 
 .bm_main {
         padding-top: 150px;
+        margin-bottom: 100px;
 }
 
 /*---------- Media Queries -----*/
@@ -401,6 +402,10 @@ footer {
 {
     font-size: 12px;
     line-height: 15px;
+}
+
+.bm_main {
+        margin-bottom: 0px;
 }
 
 }
