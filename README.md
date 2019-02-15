@@ -55,6 +55,13 @@ Futhermore, I wanted to make a page to show the availablity of the group so peop
  
  ## Structure Plane
  
+ For the structure plane I want to achieve the goal of making sure each piece of content is organised and placed correctly for the site's purpose and audience culture. Therefore, a easily usable navigation in the expected place and also accessibility points will be included for screen readers and images.
+ 
+ ### Interaction Design
+ 
+ <img src="assets/wireframes.png">
+ 
+ The image above shows the structure of the website. Users will firstly load into the index.html page then directed to back stage where they can find a navigation in the following order: the logo used as a home button - Meet The Band - Monkee's Archive - Band Availability
  
  
 -----
