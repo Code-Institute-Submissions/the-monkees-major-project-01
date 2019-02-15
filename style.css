@@ -171,6 +171,14 @@ a {
 
 .bkmain {
     padding-top: 100px;
+    background-image: url("band-assets/images/monkeesbk.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    
 }
 
 .main {
@@ -384,7 +392,7 @@ footer {
 
 .bm_main {
         padding-top: 150px;
-        margin-bottom: 100px;
+        margin-bottom: 150px;
 }
 
 /*---------- Media Queries -----*/
