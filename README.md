@@ -55,6 +55,13 @@ Futhermore, I wanted to make a page to show the availablity of the group so peop
  
  ## Structure Plane
  
+ For the structure plane I want to achieve the goal of making sure each piece of content is organised and placed correctly for the site's purpose and audience culture. Therefore, a easily usable navigation in the expected place and also accessibility points will be included for screen readers and images.
+ 
+ ### Interaction Design
+ 
+ <img src="assets/wireframes.png">
+ 
+ The image above shows the structure of the website. Users will firstly load into the index.html page then directed to back stage where they can find a navigation in the following order: the logo used as a home button - Meet The Band - Monkee's Archive - Band Availability
  
  
 -----
@@ -113,7 +120,19 @@ Inside each band member's page there are their social links which directs the us
 
 ## Deployment
 
-The version control and deployment of this project is based on Git Hub. After every session I push the local code within Cloud9 into my GIT HUB repository. 
+The version control and deployment of this project is based on Git Hub. After every session I push the local code within Cloud9 into my GIT HUB repository.
+
+This is my procedure: 
+
+After I have finished working on the files in my IDE I would open the terminal and do the following commands to push the updated files across to the repository on GitHub
+
+``` $git add . ```
+
+```$git commit -m "describe the stage I am at"```
+
+```git push -u origin master```
+
+I would now ```$git status``` to check if everything is finished and then look at the repository to see there aswell.
 
 -----
 
