@@ -120,7 +120,19 @@ Inside each band member's page there are their social links which directs the us
 
 ## Deployment
 
-The version control and deployment of this project is based on Git Hub. After every session I push the local code within Cloud9 into my GIT HUB repository. 
+The version control and deployment of this project is based on Git Hub. After every session I push the local code within Cloud9 into my GIT HUB repository.
+
+This is my procedure: 
+
+After I have finished working on the files in my IDE I would open the terminal and do the following commands to push the updated files across to the repository on GitHub
+
+``` $git add . ```
+
+```$git commit -m "describe the stage I am at"```
+
+```git push -u origin master```
+
+I would now ```$git status``` to check if everything is finished and then look at the repository to see there aswell.
 
 -----
 
