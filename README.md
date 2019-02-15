@@ -1,11 +1,40 @@
 # The Monkees' Major Project
 
+## Site Address:
+
+-----
+
+## Table of Contents
+
+1. [Overview](#overview)
+
+2. [UX Design Procedure](#ux)
+    - [Strategy Plane](#strategy-plane)
+    - [Scope Plane](#scope-plane)
+
+3. [Features](#features)
+    - [Existing Features](#existing-features)
+    - [Features Left to Implement](#features-left-to-implement)
+    
+4. [Technologies Used](#technologies-used)
+
+5. [Testing](#testing)
+
+6. [Deployment](#deployment)
+
+7. [Credits](#credits)
+
+-----
+
+## Overview
+
 In this project I was assigned to make a website for the Pop-Band "The Monkees'". I chose to follow-up with the suggested band and not decide on a project myself as I wanted to experience a real-life work situation where clients would say what they wanted to be displayed on their webiste.
 
 This website displays content through visual and audible stimuluses such as: picture and videos and also audio files aswell. You can find infomation about each band member, the band availability and also tour dates in the UK. Additionally, there is an "Archives" page where viewers can look at their Discography and also listen to selected songs.
  
- -----
- 
+-----
+
+
 ## UX
  
  My method for the UX Design was to use the software Sketch (https://www.sketchapp.com/) to help me plan and design better. 
@@ -23,6 +52,9 @@ I wanted to included a page where there was a photo of the band, or individual p
 Additionally, there would be an archive page showing all the band's discography so fans and potential fans can look up all their music with also a few songs free on their website so potential fans can decide whether or not they enjot the music.
 
 Futhermore, I wanted to make a page to show the availablity of the group so people can book them out. Also, the dates or where and when they are peforming with a "Book Now" button will be made.
+ 
+ ## Structure Plane
+ 
  
  
 -----
@@ -93,5 +125,11 @@ History of each band member can be found on their wiki page:
 - https://en.wikipedia.org/wiki/Davy_Jones_(musician) - Davy Jones
 - https://en.wikipedia.org/wiki/Peter_Tork - Peter Tork
 
+The following webpages were used for debuging code and to attain pre-set css in some cases.
+
+- https://www.w3schools.com
+- https://css-tricks.com
+- https://developer.mozilla.org/en-US
+ 
 ### Media
 All peices of conent (photos, videos, audio) that were used in this site were obtained from the project assets given to me.
