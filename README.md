@@ -53,6 +53,9 @@ Additionally, there would be an archive page showing all the band's discography 
 
 Futhermore, I wanted to make a page to show the availablity of the group so people can book them out. Also, the dates or where and when they are peforming with a "Book Now" button will be made.
  
+ ## Structure Plane
+ 
+ 
  
 -----
 ## Features
