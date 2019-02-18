@@ -65,7 +65,10 @@ Futhermore, I wanted to make a page to show the availablity of the group so peop
  
  The image above shows the structure of the website. Users will firstly load into the index.html page then directed to back stage where they can find a navigation in the following order: the logo used as a home button - Meet The Band - Monkee's Archive - Band Availability
  
+ <img src="assets/tree-site.png">
  
+As shown abovem a standard tree structure is implemented. It will be 3 levels but however will ensure the 3-click-rule is available with the index.html page being a page just for users to land on and will never be able to get to unless they revisit the website.
+
 -----
 ## Features
 ### Existing Features
