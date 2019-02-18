@@ -385,7 +385,9 @@ a {
 
 .bm_main {
         padding-top: 150px;
-        margin-bottom: 150px;
+        margin-bottom: 75px;
+        height: auto;
+        
 }
 
 /*---------- Media Queries -----*/
@@ -561,11 +563,6 @@ a {
         position: relative;
     }
     
-    .bmfooter {
-        position: fixed;
-        bottom: 0;
-    }
-
 }
 
 /*----------/media queries -----*/
