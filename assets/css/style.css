@@ -15,7 +15,7 @@ html, body {
 /*---------- Landing Page -----*/
 
 .bg-img {
-    background-image: url("band-assets/images/monkees.jpg");
+    background-image: url("../../band-assets/images/monkees.jpg");
     height: 100%;
     width: 100%;
     background-position: center;
@@ -171,7 +171,7 @@ a {
 
 .bkmain {
     padding-top: 100px;
-    background-image: url("band-assets/images/monkeesbk.jpg");
+    background-image: url("../../band-assets/images/monkeesbk.jpg");
     height: 100%;
     width: 100%;
     background-position: center;
