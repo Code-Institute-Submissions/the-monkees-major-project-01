@@ -560,6 +560,11 @@ a {
     footer {
         position: relative;
     }
+    
+    .bmfooter {
+        position: fixed;
+        bottom: 0;
+    }
 
 }
 
