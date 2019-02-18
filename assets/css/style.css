@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Aleo:300,300i,400,400i,700,700i');
 
 /*----------/Fonts -----*/
+
 /*---------- Html & Body ----- */
 
 html, body {
@@ -12,6 +13,42 @@ html, body {
 }
 
 /*----------/Html & Body -----*/
+
+/*----------Nav & Footer -----*/
+
+nav.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: white;
+    box-shadow: 0px 0px 13px black;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+footer {
+    font-family: "Aleo", sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #c12828;
+}
+
+.navbar-toggler {
+    height: 90px;
+    width: 90px;
+}
+
+.fas.fa-ellipsis-v{
+    font-size: 45px;
+}
+
+/*----------/Nav & Footer -----*/
+
 /*---------- Landing Page -----*/
 
 .bg-img {
@@ -165,8 +202,8 @@ a {
 }
 
 /*----------/Media Queries -----*/
-
 /*----------/Landing Page -----*/
+
 /*---------- Backstage Page -----*/
 
 .bkmain {
@@ -195,46 +232,8 @@ a {
     width: auto;
 }
 
-nav.navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 10;
-    background-color: white;
-    box-shadow: 0px 0px 13px black;
-}
-
-.nav-item {
-    text-align: center;
-}
-
-footer {
-    font-family: "Aleo", sans-serif;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    color: white;
-    background-color: #c12828;
-}
-
-.navbar-toggler {
-    height: 90px;
-    width: 90px;
-}
-
-.fas.fa-ellipsis-v{
-    font-size: 45px;
-}
-
 /*---------- Media Queries -----*/
 
-@media only screen and (max-width: 1199px) {
-    
-.nav-item {
-    font-size: 40px;
-}
-
-}
 @media only screen and (max-width: 640px) {
     
     #video {
@@ -244,19 +243,13 @@ footer {
 }
 
 /*----------/Media Queries -----*/
-
 /*----------/Backstage Page -----*/
+
 /*---------- mtb.html -----*/
 
 .mtbmain {
     padding-top: 100px;
     height: auto;
-}
-
-.arcmain {
-    padding-top: 100px;
-    height: auto;
-    margin-bottom: 50px;
 }
 
 .bndmain {
@@ -265,7 +258,7 @@ footer {
     height: auto;
 }
 
- .mtbrow {
+.mtbrow {
         padding-bottom: 75px;
     }
 
@@ -417,13 +410,6 @@ footer {
 }
 
 }
-@media only screen and (max-width: 767px) {
-    
-    footer {
-        position: relative;
-    }
-
-}
 @media only screen and (max-width: 576px) {
 
    .mtbrow {
@@ -450,11 +436,16 @@ footer {
 }
 }
 
-
 /*----------/Media Queries -----*/
-
 /*----------/mtb.html -----*/
+
 /*---------- archives.html -----*/
+
+.arcmain {
+    padding-top: 100px;
+    height: auto;
+    margin-bottom: 50px;
+}
 
 /*----------/archives.html -----*/
 
@@ -505,8 +496,8 @@ footer {
 }
 
 /*----------/Media Queries -----*/
-
 /*----------/availability.html -----*/
+
 /*---------- special class names -----*/
 
 .fff {
@@ -548,5 +539,28 @@ footer {
 .fcolor {
     color: rgba(0,0,0,.5)
 }
+
+.hr_1 {
+    width: 70%;
+}
  
 /*----------/special class names -----*/
+
+/*---------- media queries -----*/
+
+@media only screen and (max-width: 1199px) {
+    
+.nav-item {
+    font-size: 40px;
+}
+
+}
+@media only screen and (max-width: 767px) {
+    
+    footer {
+        position: relative;
+    }
+
+}
+
+/*----------/media queries -----*/
